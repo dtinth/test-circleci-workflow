@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:8-browsers
     steps:
       - run:
-          name: Meow
+          name: Meow1
           command: 'true'
   lol:
     working_directory: ~/meow
@@ -14,7 +14,7 @@ jobs:
       - image: circleci/node:8-browsers
     steps:
       - run:
-          name: Meow
+          name: Meow2
           command: 'true'
   haha:
     working_directory: ~/meow
@@ -22,5 +22,5 @@ jobs:
       - image: circleci/node:8-browsers
     steps:
       - run:
-          name: Meow
+          name: Meow3
           command: 'true'
