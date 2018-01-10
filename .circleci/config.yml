@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/meow
+    docker:
+      - image: circleci/node:8-browsers
+    steps:
+      - run:
+          name: Meow
+          command: true
+  lol:
+    working_directory: ~/meow
+    docker:
+      - image: circleci/node:8-browsers
+    steps:
+      - run:
+          name: Meow
+          command: true
+  haha:
+    working_directory: ~/meow
+    docker:
+      - image: circleci/node:8-browsers
+    steps:
+      - run:
+          name: Meow
+          command: true
