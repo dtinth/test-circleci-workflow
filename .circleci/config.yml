@@ -7,7 +7,7 @@ jobs:
     steps:
       - run:
           name: Meow
-          command: true
+          command: 'true'
   lol:
     working_directory: ~/meow
     docker:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - run:
           name: Meow
-          command: true
+          command: 'true'
   haha:
     working_directory: ~/meow
     docker:
@@ -23,4 +23,4 @@ jobs:
     steps:
       - run:
           name: Meow
-          command: true
+          command: 'true'
