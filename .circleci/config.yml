@@ -7,7 +7,7 @@ jobs:
     steps:
       - run:
           name: Meow1
-          command: 'true'
+          command: 'true || true'
   lol:
     working_directory: ~/meow
     docker:
